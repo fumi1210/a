@@ -33,5 +33,5 @@ if st.button("運勢を占う"):
                       "大凶"]
         return random.choice(fortunes)
     result = omikuji()
-    st.write("あなたの運勢は「{result}」です！")
-    st.write("おみくじを引きます...")
+    st.write("あなたの運勢は「{result}」")
+
