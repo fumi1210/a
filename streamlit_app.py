@@ -35,5 +35,3 @@ if st.button("運勢を占う"):
     result = omikuji()
     st.write("あなたの運勢は「{result}」です！")
     st.write("おみくじを引きます...")
-
-# 補足メッセージ
